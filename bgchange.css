@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&family=Work+Sans:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(105, 99, 99);
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn:hover {
+    background-color: gray;
+}
